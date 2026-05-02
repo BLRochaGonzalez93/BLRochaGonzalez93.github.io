@@ -1,143 +1,469 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio GameDev - Tu Nombre</title>
-    <meta name="description"
-          content="Portfolio técnico de programación de videojuegos con Unity, Unreal Engine, C#, C++ y
- sistemas gameplay." />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>VRM Games | Game Developer & Gameplay Programmer</title>
+  <meta
+    name="description"
+    content="Portfolio bilingüe de Blas Luis Rocha González, VRM Games, Game Developer y Gameplay Programmer especializado en Unity, C#, gameplay systems y prototipos jugables."
+  />
+  <meta name="author" content="Blas Luis Rocha González - VRM Games" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0aff68" />
+  <link rel="canonical" href="https://BLRochaGonzalez93.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="VRM Games | Game Developer & Gameplay Programmer" />
+  <meta
+    property="og:description"
+    content="Portfolio profesional de desarrollo de videojuegos con Unity, C#, Unreal Engine, C++ y sistemas gameplay."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://BLRochaGonzalez93.github.io/" />
+  <meta property="og:image" content="https://BLRochaGonzalez93.github.io/assets/img/social-preview.webp" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VRM Games | Game Developer & Gameplay Programmer" />
+  <meta
+    name="twitter:description"
+    content="Portfolio profesional de Blas Luis Rocha González, especializado en Unity, C# y gameplay programming."
+  />
+  <meta name="twitter:image" content="https://BLRochaGonzalez93.github.io/assets/img/social-preview.webp" />
+
+  <!-- Icons and styles -->
+  <link rel="icon" href="./assets/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="./assets/icons/icon-192.png" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
+
 <body>
-    <header class="hero">
-        <nav class="navbar">
-            <h1 class="logo">Tu Nombre</h1>
-            <ul class="nav-links">
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contacto</a></li>
+  <a class="skip-link" href="#main-content" data-i18n="accessibility.skip">Saltar al contenido principal</a>
+
+  <header class="site-header" data-header>
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#home" aria-label="VRM Games home">
+        <span class="brand-mark">VRM</span>
+        <span class="brand-text">VRM Games</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+
+      <ul class="nav-links" data-nav-menu>
+        <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="#stack" data-i18n="nav.stack">Tecnologías</a></li>
+        <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="#repositories" data-i18n="nav.repositories">Repositorios</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+
+      <div class="language-switcher" aria-label="Selector de idioma">
+        <button class="lang-button" type="button" data-set-lang="es" aria-label="Cambiar a español">
+          <span aria-hidden="true">🇪🇸</span>
+          <span>ES</span>
+        </button>
+        <button class="lang-button" type="button" data-set-lang="en" aria-label="Switch to English">
+          <span aria-hidden="true">🇬🇧</span>
+          <span>EN</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero section-hero">
+      <div class="hero-background" aria-hidden="true">
+        <span class="grid-glow"></span>
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+      </div>
+
+      <div class="hero-layout reveal">
+        <div class="hero-content">
+          <p class="eyebrow">
+            <i data-lucide="gamepad-2" aria-hidden="true"></i>
+            <span data-i18n="hero.eyebrow">Game Developer · Gameplay Programmer · Unity / C#</span>
+          </p>
+
+          <h1>
+            <span data-i18n="hero.titleLine1">Hola, soy</span>
+            <strong>Blas Luis Rocha González</strong>
+            <span class="hero-alias">VRM Games</span>
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            Desarrollo prototipos jugables, sistemas gameplay y experiencias interactivas con una base técnica clara, documentación cuidada y una presentación preparada para estudios y reclutadores.
+          </p>
+
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button primary" href="#projects">
+              <i data-lucide="rocket" aria-hidden="true"></i>
+              <span data-i18n="hero.ctaProjects">Ver proyectos</span>
+            </a>
+            <a class="button secondary" href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+            <a class="button ghost" href="./assets/docs/CV_Blas_Luis_Rocha_Gonzalez_GameDeveloper.pdf" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="file-down" aria-hidden="true"></i>
+              <span data-i18n="hero.ctaCv">Descargar CV</span>
+            </a>
+          </div>
+
+          <ul class="hero-highlights" aria-label="Highlights">
+            <li>
+              <span class="highlight-value">Unity</span>
+              <span data-i18n="hero.highlight1">motor principal</span>
+            </li>
+            <li>
+              <span class="highlight-value">C#</span>
+              <span data-i18n="hero.highlight2">gameplay systems</span>
+            </li>
+            <li>
+              <span class="highlight-value">GitHub</span>
+              <span data-i18n="hero.highlight3">portfolio técnico</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Resumen profesional">
+          <div class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.status">Disponible para oportunidades GameDev</span>
+          </div>
+
+          <div class="terminal-card" aria-hidden="true">
+            <div class="terminal-header">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>&gt; profile.load("VRM Games")
+role: Game Developer
+focus: Gameplay Programming
+engine: Unity
+language: C#
+status: Building portfolio...</code></pre>
+          </div>
+
+          <div class="hero-tech-grid">
+            <span><i class="devicon-unity-plain"></i>Unity</span>
+            <span><i class="devicon-csharp-plain"></i>C#</span>
+            <span><i class="devicon-git-plain"></i>Git</span>
+            <span><i class="devicon-github-original"></i>GitHub</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="projects.kicker">Portfolio visual</p>
+        <h2 data-i18n="projects.title">Proyectos destacados</h2>
+        <p data-i18n="projects.description">
+          Primera selección de prototipos y sistemas preparados para evolucionar hacia repositorios técnicos, builds descargables y case studies completos.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-media project-media-unity" aria-hidden="true">
+            <i class="devicon-unity-plain"></i>
+            <span>U001</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Unity · C#</span>
+              <span class="status-tag" data-i18n="status.prototype">Prototipo</span>
+            </div>
+            <h3 data-i18n="project1.title">Third Person Controller</h3>
+            <p data-i18n="project1.description">
+              Controlador en tercera persona con movimiento relativo a cámara, salto, gravedad, input modular y sincronización con animaciones.
+            </p>
+            <ul class="tag-list">
+              <li>Gameplay</li>
+              <li>Input</li>
+              <li>Camera</li>
+              <li>Animation</li>
             </ul>
-        </nav>
-        <section class="hero-content">
-            <p class="eyebrow">Gameplay Programmer · Unity · Unreal Engine</p>
-            <h2>Portfolio técnico de programación de videojuegos</h2>
-            <p>
-                Desarrollo prototipos, sistemas gameplay, herramientas y proyectos
-                jugables usando Unity, Unreal Engine, C#, C++ y GitHub.
+            <div class="project-links">
+              <a href="./projects/unity-third-person-controller.html">
+                <i data-lucide="eye" aria-hidden="true"></i>
+                <span data-i18n="common.details">Detalles</span>
+              </a>
+              <a href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="code-2" aria-hidden="true"></i>
+                <span data-i18n="common.code">Código</span>
+              </a>
+              <span class="disabled-link" aria-disabled="true">
+                <i data-lucide="package" aria-hidden="true"></i>
+                <span data-i18n="common.buildSoon">Build próximamente</span>
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media project-media-combat" aria-hidden="true">
+            <i data-lucide="swords"></i>
+            <span>U002</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Unity · C#</span>
+              <span class="status-tag" data-i18n="status.concept">Concepto</span>
+            </div>
+            <h3 data-i18n="project2.title">Combat Prototype</h3>
+            <p data-i18n="project2.description">
+              Base de combate con ataques, daño, feedback visual, estados simples y arquitectura preparada para ampliarse.
             </p>
-            <div class="hero-actions">
-                <a class="button primary" href="#projects">Ver proyectos</a>
-                <a class="button secondary" href="https://github.com/tuusuario" target="_blank" rel="noopener
- noreferrer">
-                    GitHub
-                </a>
+            <ul class="tag-list">
+              <li>Combat</li>
+              <li>State</li>
+              <li>Feedback</li>
+              <li>Polish</li>
+            </ul>
+            <div class="project-links">
+              <a href="./projects/unity-combat-prototype.html">
+                <i data-lucide="eye" aria-hidden="true"></i>
+                <span data-i18n="common.details">Detalles</span>
+              </a>
+              <a href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="code-2" aria-hidden="true"></i>
+                <span data-i18n="common.code">Código</span>
+              </a>
+              <span class="disabled-link" aria-disabled="true">
+                <i data-lucide="package" aria-hidden="true"></i>
+                <span data-i18n="common.buildSoon">Build próximamente</span>
+              </span>
             </div>
-        </section>
-    </header>
-    <main>
-        <section id="about" class="section">
-            <h2>Sobre mí</h2>
-            <p>
-                Soy programador de videojuegos especializado en gameplay programming,
-                arquitectura de sistemas, prototipado y documentación técnica. Este
-                portfolio muestra proyectos desarrollados con Unity y Unreal Engine.
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media project-media-inventory" aria-hidden="true">
+            <i data-lucide="boxes"></i>
+            <span>U003</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Unity · C#</span>
+              <span class="status-tag" data-i18n="status.planned">Planificado</span>
+            </div>
+            <h3 data-i18n="project3.title">Inventory & Items System</h3>
+            <p data-i18n="project3.description">
+              Sistema de inventario basado en datos, objetos reutilizables, UI básica y flujo preparado para documentación técnica.
             </p>
-        </section>
-        <section id="projects" class="section">
-            <h2>Proyectos destacados</h2>
-            <div class="project-grid">
-                <article class="project-card">
-                    <img src="./assets/img/unity-project.png"
-                         alt="Captura del proyecto Third Person Controller en Unity" />
-                    <div class="project-content">
-                        <h3>Third Person Controller</h3>
-                        <p>
-                            Prototipo en Unity con movimiento en tercera persona, cámara,
-                            salto, animaciones e input modular.
-                        </p>
-                        <ul>
-                            <li>Motor: Unity</li>
-                            <li>Lenguaje: C#</li>
-                            <li>Estado: Jugable</li>
-                        </ul>
-                        <div class="project-links">
-                            <a href="https://github.com/tuusuario/game-dev-portfolio" target="_blank" rel="noopener
- noreferrer">
-                                Código
-                            </a>
-                            <a href="https://github.com/tuusuario/game-dev-portfolio/releases" target="_blank"
-                               rel="noopener noreferrer">
-                                Build
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="project-card">
-                    <img src="./assets/img/unreal-project.png"
-                         alt="Captura del proyecto Action Prototype en Unreal Engine" />
-                    <div class="project-content">
-                        <h3>Action Prototype</h3>
-                        <p>
-                            Prototipo en Unreal Engine centrado en combate, componentes C++,
-                            Blueprints y lógica gameplay.
-                        </p>
-                        <ul>
-                            <li>Motor: Unreal Engine</li>
-                            <li>Lenguaje: C++ / Blueprints</li>
-                            <li>Estado: En desarrollo</li>
-                        </ul>
-                        <div class="project-links">
-                            <a href="https://github.com/tuusuario/game-dev-portfolio" target="_blank" rel="noopener
- noreferrer">
-                                Código
-                            </a>
-                            <a href="https://github.com/tuusuario/game-dev-portfolio/releases" target="_blank"
-                               rel="noopener noreferrer">
-                                Build
-                            </a>
-                        </div>
-                    </div>
-                </article>
+            <ul class="tag-list">
+              <li>Inventory</li>
+              <li>UI</li>
+              <li>Data</li>
+              <li>Tools</li>
+            </ul>
+            <div class="project-links">
+              <a href="./projects/unity-inventory-system.html">
+                <i data-lucide="eye" aria-hidden="true"></i>
+                <span data-i18n="common.details">Detalles</span>
+              </a>
+              <a href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="code-2" aria-hidden="true"></i>
+                <span data-i18n="common.code">Código</span>
+              </a>
+              <span class="disabled-link" aria-disabled="true">
+                <i data-lucide="package" aria-hidden="true"></i>
+                <span data-i18n="common.buildSoon">Build próximamente</span>
+              </span>
             </div>
-        </section>
-        <section id="skills" class="section">
-            <h2>Skills técnicas</h2>
-            <div class="skills-list">
-                <span>Unity</span>
-                <span>Unreal Engine</span>
-                <span>C#</span>
-                <span>C++</span>
-                <span>Blueprints</span>
-                <span>Gameplay Programming</span>
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>Git LFS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media project-media-save" aria-hidden="true">
+            <i data-lucide="save"></i>
+            <span>U004</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta">
+              <span>Unity · C#</span>
+              <span class="status-tag" data-i18n="status.planned">Planificado</span>
             </div>
-        </section>
-        <section id="contact" class="section">
-            <h2>Contacto</h2>
-            <p>
-                Puedes revisar mis proyectos técnicos en GitHub o contactar conmigo
-                para oportunidades relacionadas con programación de videojuegos.
+            <h3 data-i18n="project4.title">Save System Prototype</h3>
+            <p data-i18n="project4.description">
+              Prototipo de guardado local con serialización, datos de jugador, progreso persistente y estructura escalable.
             </p>
-            <div class="contact-links">
-                <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                </a>
-                <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-                <a href="mailto:tuemail@example.com">
-                    Email
-                </a>
+            <ul class="tag-list">
+              <li>Save</li>
+              <li>JSON</li>
+              <li>Persistence</li>
+              <li>Architecture</li>
+            </ul>
+            <div class="project-links">
+              <a href="./projects/unity-save-system.html">
+                <i data-lucide="eye" aria-hidden="true"></i>
+                <span data-i18n="common.details">Detalles</span>
+              </a>
+              <a href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="code-2" aria-hidden="true"></i>
+                <span data-i18n="common.code">Código</span>
+              </a>
+              <span class="disabled-link" aria-disabled="true">
+                <i data-lucide="package" aria-hidden="true"></i>
+                <span data-i18n="common.buildSoon">Build próximamente</span>
+              </span>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <p>© 2026 Tu Nombre - Game Development Portfolio</p>
-    </footer>
-    <script src="./assets/js/main.js"></script>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section reveal">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="stack.kicker">Stack técnico</p>
+        <h2 data-i18n="stack.title">Tecnologías y herramientas</h2>
+        <p data-i18n="stack.description">
+          Herramientas principales para programar, prototipar, versionar, documentar y presentar proyectos de videojuegos.
+        </p>
+      </div>
+
+      <div class="stack-grid" aria-label="Tecnologías principales">
+        <article class="tech-card"><i class="devicon-unity-plain"></i><span>Unity</span></article>
+        <article class="tech-card"><i class="devicon-unrealengine-original"></i><span>Unreal Engine</span></article>
+        <article class="tech-card"><i class="devicon-csharp-plain"></i><span>C#</span></article>
+        <article class="tech-card"><i class="devicon-cplusplus-plain"></i><span>C++</span></article>
+        <article class="tech-card"><i class="devicon-git-plain"></i><span>Git</span></article>
+        <article class="tech-card"><i class="devicon-github-original"></i><span>GitHub</span></article>
+        <article class="tech-card"><i class="devicon-blender-original"></i><span>Blender</span></article>
+        <article class="tech-card"><i class="devicon-photoshop-plain"></i><span>Photoshop</span></article>
+        <article class="tech-card"><i class="devicon-visualstudio-plain"></i><span>Visual Studio</span></article>
+        <article class="tech-card"><i class="devicon-vscode-plain"></i><span>VS Code</span></article>
+      </div>
+    </section>
+
+    <section id="about" class="section section-split reveal">
+      <div class="section-heading align-left">
+        <p class="section-kicker" data-i18n="about.kicker">Perfil</p>
+        <h2 data-i18n="about.title">Sobre mí</h2>
+        <p data-i18n="about.description1">
+          Soy Blas Luis Rocha González, desarrollador de videojuegos bajo el nick VRM Games. Mi foco principal está en Unity y C#, creando sistemas gameplay claros, prototipos jugables y documentación que permita entender rápidamente el valor técnico de cada proyecto.
+        </p>
+        <p data-i18n="about.description2">
+          Mi objetivo con este portfolio es mostrar una evolución profesional real: proyectos seleccionados, repositorios ordenados, builds descargables y una presentación visual sencilla, moderna y útil para reclutadores.
+        </p>
+      </div>
+
+      <div class="about-panel">
+        <h3 data-i18n="about.focusTitle">Áreas de interés</h3>
+        <ul class="check-list">
+          <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="about.focus1">Gameplay programming y arquitectura de sistemas</span></li>
+          <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="about.focus2">Controladores de jugador, cámara, input y UI</span></li>
+          <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="about.focus3">Prototipos jugables para portfolio técnico</span></li>
+          <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="about.focus4">GitHub, documentación y flujo profesional de trabajo</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="repositories" class="section reveal">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="repos.kicker">Ecosistema</p>
+        <h2 data-i18n="repos.title">Repositorios y enlaces principales</h2>
+        <p data-i18n="repos.description">
+          La web funciona como capa visual del portfolio. GitHub centraliza el código, la documentación técnica y las builds publicadas mediante Releases.
+        </p>
+      </div>
+
+      <div class="repo-grid">
+        <a class="repo-card" href="https://BLRochaGonzalez93.github.io" target="_blank" rel="noopener noreferrer">
+          <i data-lucide="globe-2" aria-hidden="true"></i>
+          <h3 data-i18n="repos.websiteTitle">Web portfolio</h3>
+          <p data-i18n="repos.websiteDescription">Primera impresión visual para reclutadores y estudios.</p>
+        </a>
+
+        <a class="repo-card" href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+          <i data-lucide="github" aria-hidden="true"></i>
+          <h3>GitHub</h3>
+          <p data-i18n="repos.githubDescription">Perfil público con proyectos, repositorios y documentación técnica.</p>
+        </a>
+
+        <a class="repo-card" href="https://github.com/BLRochaGonzalez93?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <i data-lucide="folder-git-2" aria-hidden="true"></i>
+          <h3 data-i18n="repos.projectsTitle">Repositorios de proyectos</h3>
+          <p data-i18n="repos.projectsDescription">Código, documentación, capturas y enlaces a builds jugables.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section roadmap-section reveal" aria-labelledby="roadmap-title">
+      <div class="section-heading align-left">
+        <p class="section-kicker" data-i18n="roadmap.kicker">Evolución</p>
+        <h2 id="roadmap-title" data-i18n="roadmap.title">Roadmap del portfolio</h2>
+      </div>
+
+      <ol class="roadmap-list">
+        <li>
+          <strong>v0.1</strong>
+          <span data-i18n="roadmap.item1">Web portfolio bilingüe publicada en GitHub Pages.</span>
+        </li>
+        <li>
+          <strong>v0.2</strong>
+          <span data-i18n="roadmap.item2">Primer proyecto Unity documentado con capturas y código.</span>
+        </li>
+        <li>
+          <strong>v0.3</strong>
+          <span data-i18n="roadmap.item3">Build jugable enlazada desde GitHub Releases.</span>
+        </li>
+        <li>
+          <strong>v1.0</strong>
+          <span data-i18n="roadmap.item4">Portfolio listo para enviar a estudios y reclutadores.</span>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section contact-section reveal">
+      <div class="contact-card">
+        <div>
+          <p class="section-kicker" data-i18n="contact.kicker">Contacto</p>
+          <h2 data-i18n="contact.title">¿Hablamos?</h2>
+          <p data-i18n="contact.description">
+            Estoy abierto a oportunidades relacionadas con desarrollo de videojuegos, gameplay programming, Unity, C# y creación de prototipos jugables.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:rochagonzalez.blas.93@gmail.com">
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <span data-i18n="contact.email">Enviar email</span>
+          </a>
+          <a class="button secondary" href="https://www.linkedin.com/in/blas-luis-rocha-gonzalez-18a9092aa/" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a class="button ghost" href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© <span data-current-year></span> Blas Luis Rocha González · VRM Games</p>
+      <nav aria-label="Footer navigation">
+        <a href="mailto:rochagonzalez.blas.93@gmail.com">Email</a>
+        <a href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/blas-luis-rocha-gonzalez-18a9092aa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
 </body>
 </html>
