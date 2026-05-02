@@ -1890,3 +1890,120 @@ svg {
     min-height: auto;
   }
 }
+
+
+/* ============================================================
+   VRM Games generated visual assets
+   ============================================================ */
+
+.brand-mark.image-brand {
+  padding: 4px;
+  color: transparent;
+  background: rgba(0, 0, 0, 0.45);
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow-green);
+}
+
+.brand-mark.image-brand img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(10, 255, 104, 0.55));
+}
+
+.hero-brand-art {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 18px;
+  border: 1px solid rgba(10, 255, 104, 0.22);
+  border-radius: 22px;
+  background: #010301;
+  box-shadow: inset 0 0 28px rgba(10, 255, 104, 0.08);
+}
+
+.hero-brand-art img {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  opacity: 0.96;
+}
+
+.about-avatar {
+  width: 112px;
+  height: 112px;
+  margin: 0 0 20px;
+  border: 1px solid var(--accent-border);
+  border-radius: 28px;
+  object-fit: cover;
+  background: #010301;
+  box-shadow: var(--shadow-green);
+}
+
+.project-media.has-image {
+  min-height: 240px;
+  background: #030604;
+}
+
+.project-card.featured .project-media.has-image {
+  min-height: 340px;
+}
+
+.project-media.has-image img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition), opacity var(--transition);
+}
+
+.project-card:hover .project-media.has-image img {
+  transform: scale(1.035);
+}
+
+.project-media.has-image::before {
+  z-index: 1;
+  border-color: rgba(10, 255, 104, 0.2);
+  box-shadow: inset 0 0 30px rgba(10, 255, 104, 0.08);
+}
+
+.project-media.has-image::after {
+  z-index: 1;
+  height: 58%;
+  background:
+    linear-gradient(to top, rgba(2, 4, 3, 0.92), rgba(2, 4, 3, 0.2), transparent),
+    linear-gradient(90deg, rgba(2, 4, 3, 0.5), transparent 45%);
+}
+
+.project-media.has-image span {
+  color: rgba(243, 255, 247, 0.42);
+  text-shadow: 0 0 22px rgba(10, 255, 104, 0.4);
+}
+
+.project-summary-card .project-media.has-image {
+  min-height: 260px;
+}
+
+.project-summary-card .project-media.has-image::after {
+  content: "";
+}
+
+@media (max-width: 760px) {
+  .hero-brand-art {
+    border-radius: 18px;
+  }
+
+  .about-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 24px;
+  }
+
+  .project-card.featured .project-media.has-image,
+  .project-media.has-image {
+    min-height: 230px;
+  }
+}
