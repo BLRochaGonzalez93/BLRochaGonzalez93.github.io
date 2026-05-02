@@ -158,7 +158,13 @@ const translations = {
     "project.u004.review2": "Datos persistentes del jugador",
     "project.u004.review3": "Lectura y escritura local",
     "project.u004.review4": "Inicialización del sistema",
-    "contact.email": "Enviar email"
+    "contact.email": "Enviar email",
+    "notFound.kicker": "Error 404",
+    "notFound.title": "Página no encontrada",
+    "notFound.description": "La página que buscas no existe, ha cambiado de ubicación o todavía no está publicada dentro del portfolio.",
+    "notFound.homeButton": "Volver al portfolio",
+    "notFound.projectsButton": "Ver proyectos",
+    "notFound.helpText": "También puedes revisar mi perfil de GitHub o contactar conmigo si necesitas un enlace concreto."
   },
   en: {
     "accessibility.skip": "Skip to main content",
@@ -319,7 +325,13 @@ const translations = {
     "project.u004.review2": "Persistent player data",
     "project.u004.review3": "Local read and write flow",
     "project.u004.review4": "System initialization",
-    "contact.email": "Send email"
+    "contact.email": "Send email",
+    "notFound.kicker": "Error 404",
+    "notFound.title": "Page not found",
+    "notFound.description": "The page you are looking for does not exist, has moved, or has not been published inside the portfolio yet.",
+    "notFound.homeButton": "Back to portfolio",
+    "notFound.projectsButton": "View projects",
+    "notFound.helpText": "You can also check my GitHub profile or contact me if you need a specific link."
   }
 };
 
