@@ -1646,3 +1646,247 @@ svg {
   color: var(--muted) !important;
   font-size: 0.98rem !important;
 }
+
+
+/* Featured case study and technical proof cards */
+.featured-case-study {
+  position: relative;
+}
+
+.case-study-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.75fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.case-study-card,
+.case-study-terminal,
+.project-proof,
+.technical-flow-card {
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(145deg, rgba(10, 255, 104, 0.08), transparent 42%),
+    rgba(11, 18, 14, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.case-study-card,
+.case-study-terminal {
+  border-radius: var(--radius-lg);
+  padding: clamp(22px, 4vw, 34px);
+}
+
+.case-study-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.case-study-card::after {
+  position: absolute;
+  inset: auto -12% -34% auto;
+  width: 260px;
+  height: 260px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(10, 255, 104, 0.18), transparent 68%);
+  pointer-events: none;
+  content: "";
+}
+
+.case-study-topline,
+.project-proof > span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  color: var(--muted-strong);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.status-tag.strong {
+  border-color: var(--accent-border);
+  color: #001f0d;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+}
+
+.case-study-card h3 {
+  max-width: 760px;
+  margin: 20px 0 14px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 0.98;
+  letter-spacing: -0.07em;
+}
+
+.case-study-card > p {
+  max-width: 760px;
+  color: var(--muted-strong);
+  font-size: 1.08rem;
+}
+
+.case-study-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.case-study-block {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(2, 4, 3, 0.34);
+}
+
+.case-study-block h4 {
+  margin: 0 0 14px;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.check-list.compact,
+.compact-steps {
+  margin: 0;
+  padding: 0;
+}
+
+.check-list.compact li {
+  margin-top: 10px;
+}
+
+.compact-steps {
+  display: grid;
+  gap: 10px;
+  list-style-position: inside;
+  color: var(--muted-strong);
+}
+
+.case-study-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.case-study-terminal {
+  display: grid;
+  align-content: space-between;
+  gap: 22px;
+}
+
+.compact-terminal {
+  min-height: auto;
+}
+
+.compact-terminal pre {
+  min-height: 190px;
+}
+
+.case-study-metrics {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.case-study-metrics div {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(2, 4, 3, 0.34);
+}
+
+.case-study-metrics strong,
+.case-study-metrics span {
+  display: block;
+}
+
+.case-study-metrics strong {
+  color: var(--accent);
+  font-size: 1.3rem;
+  line-height: 1.1;
+}
+
+.case-study-metrics span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.project-proof {
+  margin-top: 18px;
+  padding: 15px;
+  border-radius: var(--radius-sm);
+}
+
+.project-proof > span {
+  color: var(--accent);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.project-proof ul {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: var(--muted-strong);
+  font-size: 0.92rem;
+}
+
+.technical-flow-card {
+  border-radius: var(--radius-lg);
+}
+
+.technical-flow-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.technical-flow-list li {
+  min-height: 150px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(2, 4, 3, 0.38);
+}
+
+.technical-flow-list span,
+.technical-flow-list strong,
+.technical-flow-list em {
+  display: block;
+}
+
+.technical-flow-list span {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.technical-flow-list strong {
+  margin-top: 10px;
+  color: var(--text);
+}
+
+.technical-flow-list em {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+@media (max-width: 920px) {
+  .case-study-showcase,
+  .case-study-columns,
+  .technical-flow-list {
+    grid-template-columns: 1fr;
+  }
+
+  .technical-flow-list li {
+    min-height: auto;
+  }
+}

@@ -57,6 +57,7 @@
 
       <ul class="nav-links" data-nav-menu>
         <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="#featured-case-study" data-i18n="nav.caseStudy">Caso de estudio</a></li>
         <li><a href="#stack" data-i18n="nav.stack">Tecnologías</a></li>
         <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
         <li><a href="#repositories" data-i18n="nav.repositories">Repositorios</a></li>
@@ -162,6 +163,83 @@ status: Building portfolio...</code></pre>
       </div>
     </section>
 
+
+    <section id="featured-case-study" class="section featured-case-study reveal" aria-labelledby="featured-case-study-title">
+      <div class="section-heading align-left">
+        <p class="section-kicker" data-i18n="featured.kicker">Case study destacado</p>
+        <h2 id="featured-case-study-title" data-i18n="featured.title">Proyecto recomendado para revisar primero</h2>
+        <p data-i18n="featured.description">
+          El portfolio está preparado para que un reclutador pueda empezar por un proyecto principal, entender el objetivo técnico y después profundizar en el código, la arquitectura y la build cuando estén publicados.
+        </p>
+      </div>
+
+      <div class="case-study-showcase">
+        <article class="case-study-card">
+          <div class="case-study-topline">
+            <span class="status-tag strong" data-i18n="featured.badge">Foco actual</span>
+            <span>U001 · Unity · C#</span>
+          </div>
+
+          <h3 data-i18n="featured.projectTitle">Third Person Controller</h3>
+          <p data-i18n="featured.projectSummary">
+            Prototipo base para demostrar movimiento en tercera persona, input modular, cámara orbital, salto, gravedad y separación limpia de responsabilidades gameplay.
+          </p>
+
+          <div class="case-study-columns">
+            <div class="case-study-block">
+              <h4 data-i18n="featured.demonstratesTitle">Qué demuestra</h4>
+              <ul class="check-list compact">
+                <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="featured.demonstrates1">Arquitectura gameplay modular.</span></li>
+                <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="featured.demonstrates2">Separación entre input, movimiento, cámara y animación.</span></li>
+                <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="featured.demonstrates3">Documentación orientada a revisión técnica.</span></li>
+              </ul>
+            </div>
+
+            <div class="case-study-block">
+              <h4 data-i18n="featured.reviewerTitle">Ruta de revisión</h4>
+              <ol class="compact-steps">
+                <li data-i18n="featured.review1">Leer la página del proyecto.</li>
+                <li data-i18n="featured.review2">Revisar los scripts principales.</li>
+                <li data-i18n="featured.review3">Probar la build cuando esté publicada.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="case-study-actions">
+            <a class="button primary" href="./projects/unity-third-person-controller.html">
+              <i data-lucide="file-search" aria-hidden="true"></i>
+              <span data-i18n="featured.ctaDetails">Ver case study</span>
+            </a>
+            <a class="button secondary" href="https://github.com/BLRochaGonzalez93" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="github" aria-hidden="true"></i>
+              <span data-i18n="featured.ctaGithub">Ver GitHub</span>
+            </a>
+          </div>
+        </article>
+
+        <aside class="case-study-terminal" aria-label="Technical scope">
+          <div class="terminal-card compact-terminal" aria-hidden="true">
+            <div class="terminal-header">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>U001_REVIEW_PATH
+├─ PlayerInputReader.cs
+├─ ThirdPersonMotor.cs
+├─ CameraController.cs
+└─ PlayerAnimationController.cs</code></pre>
+          </div>
+
+          <div class="case-study-metrics" aria-label="Case study metrics">
+            <div><strong>4</strong><span data-i18n="featured.metric1">sistemas principales</span></div>
+            <div><strong>Unity</strong><span data-i18n="featured.metric2">motor objetivo</span></div>
+            <div><strong>C#</strong><span data-i18n="featured.metric3">lenguaje base</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
     <section id="projects" class="section reveal">
       <div class="section-heading">
         <p class="section-kicker" data-i18n="projects.kicker">Portfolio visual</p>
@@ -192,6 +270,13 @@ status: Building portfolio...</code></pre>
               <li>Camera</li>
               <li>Animation</li>
             </ul>
+            <div class="project-proof">
+              <span><i data-lucide="search-code" aria-hidden="true"></i><strong data-i18n="project1.proofTitle">Prueba técnica</strong></span>
+              <ul>
+                <li data-i18n="project1.proof1">Movimiento relativo a cámara</li>
+                <li data-i18n="project1.proof2">Separación input / motor / cámara</li>
+              </ul>
+            </div>
             <div class="project-links">
               <a href="./projects/unity-third-person-controller.html">
                 <i data-lucide="eye" aria-hidden="true"></i>
@@ -229,6 +314,13 @@ status: Building portfolio...</code></pre>
               <li>Feedback</li>
               <li>Polish</li>
             </ul>
+            <div class="project-proof">
+              <span><i data-lucide="search-code" aria-hidden="true"></i><strong data-i18n="project2.proofTitle">Prueba técnica</strong></span>
+              <ul>
+                <li data-i18n="project2.proof1">Estados de ataque y recuperación</li>
+                <li data-i18n="project2.proof2">Daño, hit detection y feedback</li>
+              </ul>
+            </div>
             <div class="project-links">
               <a href="./projects/unity-combat-prototype.html">
                 <i data-lucide="eye" aria-hidden="true"></i>
@@ -266,6 +358,13 @@ status: Building portfolio...</code></pre>
               <li>Data</li>
               <li>Tools</li>
             </ul>
+            <div class="project-proof">
+              <span><i data-lucide="search-code" aria-hidden="true"></i><strong data-i18n="project3.proofTitle">Prueba técnica</strong></span>
+              <ul>
+                <li data-i18n="project3.proof1">Datos de ítems reutilizables</li>
+                <li data-i18n="project3.proof2">Inventario separado de la UI</li>
+              </ul>
+            </div>
             <div class="project-links">
               <a href="./projects/unity-inventory-system.html">
                 <i data-lucide="eye" aria-hidden="true"></i>
@@ -303,6 +402,13 @@ status: Building portfolio...</code></pre>
               <li>Persistence</li>
               <li>Architecture</li>
             </ul>
+            <div class="project-proof">
+              <span><i data-lucide="search-code" aria-hidden="true"></i><strong data-i18n="project4.proofTitle">Prueba técnica</strong></span>
+              <ul>
+                <li data-i18n="project4.proof1">Serialización y persistencia local</li>
+                <li data-i18n="project4.proof2">Separación runtime / save data</li>
+              </ul>
+            </div>
             <div class="project-links">
               <a href="./projects/unity-save-system.html">
                 <i data-lucide="eye" aria-hidden="true"></i>
