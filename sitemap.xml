@@ -2,32 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://BLRochaGonzalez93.github.io/</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://BLRochaGonzalez93.github.io/projects/unity-third-person-controller.html</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://BLRochaGonzalez93.github.io/projects/001-brick-breaker-2d.html</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://BLRochaGonzalez93.github.io/projects/unity-combat-prototype.html</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://BLRochaGonzalez93.github.io/projects/002-militar-invasion-2d.html</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://BLRochaGonzalez93.github.io/projects/unity-inventory-system.html</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://BLRochaGonzalez93.github.io/projects/003-ray-connection-3d.html</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://BLRochaGonzalez93.github.io/projects/unity-save-system.html</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://BLRochaGonzalez93.github.io/projects/004-io-robot-platform-2d</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+  	<loc>https://BLRochaGonzalez93.github.io/projects/005-proyecto-sonrisas-vr.html</loc>
+  	<lastmod>2026-05-08</lastmod>
+  	<changefreq>monthly</changefreq>
+  	<priority>0.8</priority>
+  </url>
+  <url>
+  	<loc>https://BLRochaGonzalez93.github.io/projects/006-kenith-the-adventures-2d.html</loc>
+  	<lastmod>2026-05-08</lastmod>
+  	<changefreq>monthly</changefreq>
+  	<priority>0.8</priority>
+  </url>
+  <url>
+  	<loc>https://BLRochaGonzalez93.github.io/projects/007-ultimate-puzzles-dinos.html</loc>
+  	<lastmod>2026-05-08</lastmod>
+  	<changefreq>monthly</changefreq>
+  	<priority>0.8</priority>
+  </url>
+  <url>
+  	<loc>https://BLRochaGonzalez93.github.io/projects/008-the-way-of-light-platform-3d.html</loc>
+  	<lastmod>2026-05-08</lastmod>
+  	<changefreq>monthly</changefreq>
+  	<priority>0.8</priority>
+  </url>
+  <url>
+  	<loc>https://BLRochaGonzalez93.github.io/projects/009-kill-them-all-2d.html</loc>
+  	<lastmod>2026-05-08</lastmod>
+  	<changefreq>monthly</changefreq>
+  	<priority>0.8</priority>
+  </url>
+  <url>
+  	<loc>https://BLRochaGonzalez93.github.io/projects/010-sokar.html</loc>
+  	<lastmod>2026-05-08</lastmod>
+  	<changefreq>monthly</changefreq>
+  	<priority>0.8</priority>
   </url>
 </urlset>
