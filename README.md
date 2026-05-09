@@ -1,5 +1,7 @@
 # Game Development Portfolio Website
 
+[English](README.en.md) | [Español](README.md)
+
 Web personal publicada con GitHub Pages.
 
 ## Contenido
