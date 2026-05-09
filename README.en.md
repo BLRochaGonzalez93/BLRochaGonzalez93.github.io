@@ -24,6 +24,11 @@ Personal website published with GitHub Pages.
 │    │    ├── icon-192.png
 │    │    └── icon-512.png
 │    ├── img/
+│    │    ├── avatar-vrm-games.webp
+│    │    ├── banner-vrm-games.webp
+│    │    ├── emblem-vrm-games.webp
+│    │    ├── logo-vrm-games.webp
+│    │    ├── social-preview.webp
 │    │    ├── projects/
 │    │    │    ├── arkanoid2d-banner.webp
 │    │    │    ├── militarinvasion-banner.webp
@@ -46,12 +51,13 @@ Personal website published with GitHub Pages.
 │    │    ├── killthemall-cover.webp
 │    │    └── sokar-cover.webp
 │    └── js/
+│         ├── i18n.js
 │         └── main.js
 ├── projects/
 │    ├── 001-brick-breaker-2d.html
 │    ├── 002-militar-invasion-2d.html
 │    ├── 003-ray-connection-3d.html
-│    ├── 004-io-robot-platform-2d
+│    ├── 004-io-robot-platform-2d.html
 │    ├── 005-proyecto-sonrisas-vr.html
 │    ├── 006-kenith-the-adventures-2d.html
 │    ├── 007-ultimate-puzzles-dinos.html
