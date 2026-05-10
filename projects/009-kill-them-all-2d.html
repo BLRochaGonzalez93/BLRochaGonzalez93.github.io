@@ -4,20 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Kill Them All 2D | VRM Games</title>
+    <title>Kill Them All! | VRM Games</title>
     <meta name="description"
-          content="Página de proyecto de Kill Them All 2D, parte del portfolio técnico de VRM Games desarrollado para evolucionar hacia case study, repositorio y build jugable." />
+          content="Página de proyecto de Kill Them All!, prototipo roguelite jugable en Unity y C# con acción top-down/isométrica, auto-ataque, oleadas, personajes, habilidades y progresión por experiencia." />
     <meta name="author" content="Blas Luis Rocha González - VRM Games" />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0aff68" />
     <link rel="canonical" href="https://BLRochaGonzalez93.github.io/projects/009-kill-them-all-2d.html" />
 
-    <meta property="og:title" content="Kill Them All 2D | VRM Games" />
-    <meta property="og:description" content="Proyecto Unity / C# del portfolio de VRM Games preparado como case study técnico." />
+    <meta property="og:title" content="Kill Them All! | VRM Games" />
+    <meta property="og:description" content="Prototipo roguelite jugable en Unity y C# centrado en supervivencia, auto-ataque, oleadas, gemas de experiencia, personajes seleccionables y habilidades mejorables." />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://BLRochaGonzalez93.github.io/projects/009-kill-them-all-2d.html" />
     <meta property="og:image" content="https://BLRochaGonzalez93.github.io/assets/img/killthemall-cover.webp" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kill Them All! | VRM Games" />
+    <meta name="twitter:description" content="Prototipo roguelite jugable con acción top-down/isométrica, oleadas, auto-ataque, personajes, experiencia, habilidades y HUD completo." />
     <meta name="twitter:image" content="https://BLRochaGonzalez93.github.io/assets/img/killthemall-cover.webp" />
 
     <link rel="icon" href="../assets/icons/favicon.ico" />
@@ -73,18 +75,22 @@
                 <div class="project-detail-layout">
                     <div class="project-detail-copy">
                         <p class="eyebrow">
-                            <i data-lucide="gamepad-2" aria-hidden="true"></i>
-                            <span data-i18n="project.009.kicker">Unity · C# · Acción 2D</span>
+                            <i data-lucide="swords" aria-hidden="true"></i>
+                            <span data-i18n="project.009.kicker">Unity · C# · Roguelite top-down/isométrico</span>
                         </p>
-                        <h1 data-i18n="project.009.title">Kill Them All 2D</h1>
-                        <p class="hero-subtitle" data-i18n="project.009.subtitle">Prototipo 2D de acción centrado en combate contra oleadas, enemigos, daño, supervivencia y gestión básica de partida.</p>
+                        <h1 data-i18n="project.009.title">Kill Them All!</h1>
+                        <p class="hero-subtitle" data-i18n="project.009.subtitle">Prototipo roguelite jugable inspirado en Vampire Survivors, centrado en supervivencia contra oleadas, auto-ataque, personajes seleccionables, gemas de experiencia y habilidades mejorables.</p>
 
                         <div class="project-actions">
                             <a class="button primary" href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D" target="_blank" rel="noopener noreferrer">
                                 <i data-lucide="github" aria-hidden="true"></i>
                                 <span data-i18n="projectPage.repoButton">Ver GitHub</span>
                             </a>
-                            <a class="button secondary" href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/releases/tag/U009-v1.0.0" target="_blank" rel="noopener noreferrer">
+                            <a class="button secondary" href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Media/Diagrams/GDD_Kill%20them%20All!.pdf" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="file-text" aria-hidden="true"></i>
+                                <span data-i18n="project.009.gddButton">Ver GDD</span>
+                            </a>
+                            <a class="button ghost" href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/releases/tag/U009-v1.0.0" target="_blank" rel="noopener noreferrer">
                                 <i data-lucide="package" aria-hidden="true"></i>
                                 <span data-i18n="projectPage.downloadBuild">Descargar Build</span>
                             </a>
@@ -93,13 +99,13 @@
 
                     <aside class="project-summary-card" aria-label="Resumen del proyecto">
                         <div class="project-media project-media-save has-image">
-                            <img src="../assets/img/projects/killthemall-banner.webp" alt="Promotional thumbnail for the U009 Kill Them All 2D Unity C# project" loading="eager" decoding="async" />
+                            <img src="../assets/img/projects/killthemall-banner.webp" alt="Banner promocional de Kill Them All!" loading="eager" decoding="async" />
                             <span>U009</span>
                         </div>
                         <div class="project-facts">
                             <div class="project-fact"><span data-i18n="projectPage.engineLabel">Motor</span><strong>Unity</strong></div>
                             <div class="project-fact"><span data-i18n="projectPage.languageLabel">Lenguaje</span><strong>C#</strong></div>
-                            <div class="project-fact"><span data-i18n="projectPage.statusFactLabel">Estado</span><strong data-i18n="project.009.status">Prototipo de acción</strong></div>
+                            <div class="project-fact"><span data-i18n="projectPage.statusFactLabel">Estado</span><strong data-i18n="project.009.status">Prototipo roguelite jugable</strong></div>
                         </div>
                     </aside>
                 </div>
@@ -109,39 +115,90 @@
                 <div class="project-detail-grid">
                     <div class="project-info-card full-width-card">
                         <h2><i data-lucide="file-text" aria-hidden="true"></i><span data-i18n="projectPage.summaryTitle">Resumen técnico</span></h2>
-                        <p data-i18n="project.009.summary">Kill Them All 2D permite trabajar sistemas de acción directa: spawn de enemigos, combate, daño, vida del jugador, puntuación, feedback y flujo de partida con condiciones de derrota o victoria.</p>
-                        <p data-i18n="projectPage.placeholderNote">Contenido preparado para sustituirse por capturas, código, vídeo, documentación y enlaces reales cuando el proyecto avance.</p>
-                    </div>
-
-                    <div class="project-info-card technical-flow-card full-width-card">
-                        <h2><i data-lucide="workflow" aria-hidden="true"></i><span data-i18n="projectPage.flowTitle">Flujo técnico previsto</span></h2>
-                        <p data-i18n="projectPage.flowIntro">En esta sección se recogen las próximas actualizaciones previstas para el proyecto en base a la especificación técnica.</p>
-                        <ol class="technical-flow-list">
-                            <li><span>01</span><strong>Spawner</strong><em data-i18n="project.009.flow1">Creación de enemigos por oleadas o intervalos.</em></li>
-                            <li><span>02</span><strong>Combat</strong><em data-i18n="project.009.flow2">Ataques, colisiones y aplicación de daño.</em></li>
-                            <li><span>03</span><strong>Health</strong><em data-i18n="project.009.flow3">Control de vida, invulnerabilidad o derrota.</em></li>
-                            <li><span>04</span><strong>Score</strong><em data-i18n="project.009.flow4">Actualización de puntuación y feedback al jugador.</em></li>
-                        </ol>
+                        <p data-i18n="project.009.summary">Kill Them All! es un prototipo roguelite jugable desarrollado en Unity con C#, con acción top-down/isométrica, supervivencia contra oleadas, auto-ataque, selección de personajes, habilidades mejorables, gemas de experiencia, progresión de nivel, dificultad creciente y estética de fantasía oscura cartoon chibi.</p>
+                        <p data-i18n="project.009.summary2">El jugador elige entre varios héroes con habilidades diferenciadas y debe sobrevivir en el Abismo derrotando enemigos, recogiendo gemas, subiendo de nivel y mejorando habilidades hasta enfrentarse a amenazas cada vez más peligrosas.</p>
                     </div>
 
                     <div class="project-info-card">
-                        <h2><i data-lucide="user-check" aria-hidden="true"></i><span data-i18n="projectPage.contributionTitle">Mi contribución</span></h2>
+                        <h2><i data-lucide="users" aria-hidden="true"></i><span data-i18n="project.009.collaborationTitle">Colaboración</span></h2>
                         <ul>
-                            <li data-i18n="project.009.contribution1">Diseño del bucle de combate y supervivencia.</li>
-                            <li data-i18n="project.009.contribution2">Preparación de spawn de enemigos y daño.</li>
-                            <li data-i18n="project.009.contribution3">Implementación prevista de feedback, puntuación y vida.</li>
-                            <li data-i18n="project.009.contribution4">Documentación de arquitectura para revisión de gameplay.</li>
+                            <li data-i18n="project.009.contribution1">Proyecto desarrollado en equipo junto a Hugo y Sergio.</li>
+                            <li data-i18n="project.009.contribution2">Mi contribución se centró en programación principal e implementación de mecánicas.</li>
+                            <li data-i18n="project.009.contribution3">Integración de sistemas de gameplay, soporte técnico, pruebas y coordinación.</li>
+                            <li data-i18n="project.009.contribution4">Trabajo conjunto con roles de programación, VFX y arte.</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card">
+                        <h2><i data-lucide="book-open" aria-hidden="true"></i><span data-i18n="project.009.documentationTitle">Documentación de diseño</span></h2>
+                        <p data-i18n="project.009.documentationSummary">El repositorio incluye un GDD con la documentación de diseño del proyecto y la planificación del universo, el Abismo, Eldoria, personajes, habilidades, enemigos, progresión y tono visual.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Media/Diagrams/GDD_Kill%20them%20All!.pdf" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="file-search" aria-hidden="true"></i>
+                                <span data-i18n="project.009.gddButton">Ver GDD</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-info-card full-width-card">
+                        <h2><i data-lucide="check-circle-2" aria-hidden="true"></i><span data-i18n="project.009.implementedTitle">Características implementadas</span></h2>
+                        <ul class="check-list">
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented1">Movimiento top-down / isométrico y supervivencia contra oleadas.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented2">Auto-ataque, sistema de daño, vida y dificultad progresiva.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented3">Spawn de enemigos, IA básica de persecución y oleadas.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented4">Gemas de experiencia, subida de nivel, selección y mejora de habilidades.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented5">Personajes seleccionables, habilidades diferenciadas y progresión de run.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented6">Menú principal, selección de personaje, opciones, pausa, HUD, Game Over y pantalla de resumen.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.implemented7">Sonido, música, VFX y build jugable para Windows.</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card full-width-card">
+                        <h2><i data-lucide="sparkles" aria-hidden="true"></i><span data-i18n="project.009.charactersTitle">Personajes y habilidades implementadas</span></h2>
+                        <ul class="tag-list">
+                            <li data-i18n="project.009.character1">Assassin — Dagger Shot, Poison Flasks, Multi-Cut, ShadowStep</li>
+                            <li data-i18n="project.009.character2">Cleric — Basic Light Pulse, Sacred Sword, Solar Beam, Sacred Floor</li>
+                            <li data-i18n="project.009.character3">Warrior — Base Atk, Twisting Slash / Spin, Rageful Blow / Ground Crack, Earthshake</li>
+                            <li data-i18n="project.009.character4">Sorceress — Arcane Ball, Twister, Thunder, Inferno</li>
+                            <li data-i18n="project.009.character5">Hunter — Arrow Shot, Penetration Arrow, Arrow Fall, Flying Traps</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card">
+                        <h2><i data-lucide="skull" aria-hidden="true"></i><span data-i18n="project.009.enemiesTitle">Enemigos implementados</span></h2>
+                        <ul>
+                            <li data-i18n="project.009.enemy1">Tribus Tribales</li>
+                            <li data-i18n="project.009.enemy2">Momias</li>
+                            <li data-i18n="project.009.enemy3">Esqueletos</li>
+                            <li data-i18n="project.009.enemy4">Dracomantes</li>
+                            <li data-i18n="project.009.enemy5">Guerrero Oscuro</li>
+                            <li data-i18n="project.009.enemy6">Hombres lobo</li>
                         </ul>
                     </div>
 
                     <div class="project-info-card">
                         <h2><i data-lucide="blocks" aria-hidden="true"></i><span data-i18n="projectPage.systemsTitle">Sistemas implementados</span></h2>
                         <ul>
-                            <li data-i18n="project.009.system1">Spawn de enemigos</li>
-                            <li data-i18n="project.009.system2">Combate y daño</li>
-                            <li data-i18n="project.009.system3">Vida del jugador</li>
-                            <li data-i18n="project.009.system4">Puntuación y feedback</li>
+                            <li data-i18n="project.009.system1">Movimiento top-down / isométrico</li>
+                            <li data-i18n="project.009.system2">Auto-ataque y armas</li>
+                            <li data-i18n="project.009.system3">Oleadas, spawn e IA básica de persecución</li>
+                            <li data-i18n="project.009.system4">Vida, daño y Game Over</li>
+                            <li data-i18n="project.009.system5">Gemas, experiencia, nivel y mejoras</li>
+                            <li data-i18n="project.009.system6">Personajes seleccionables y habilidades diferenciadas</li>
+                            <li data-i18n="project.009.system7">HUD, menús, opciones, pausa y resumen</li>
+                            <li data-i18n="project.009.system8">Sonido, música y VFX</li>
                         </ul>
+                    </div>
+
+                    <div class="project-info-card technical-flow-card full-width-card">
+                        <h2><i data-lucide="workflow" aria-hidden="true"></i><span data-i18n="project.009.architectureTitle">Arquitectura</span></h2>
+                        <p data-i18n="project.009.architectureIntro">La lógica principal se organiza en áreas dentro de PRJ_KillThemAll/Assets/_Root/Resources/Scripts/, separando enemigos, sistemas generales, mapa, jugador, UI, armas, pasivas, pickups y tracking auxiliar.</p>
+                        <ol class="technical-flow-list">
+                            <li><span>01</span><strong>Enemy / Waves</strong><em data-i18n="project.009.flow1">Movimiento enemigo, estadísticas, spawner, waves y datos de enemigos.</em></li>
+                            <li><span>02</span><strong>Player / Progression</strong><em data-i18n="project.009.flow2">Movimiento, stats, inventario, recolección, experiencia y habilidades.</em></li>
+                            <li><span>03</span><strong>Weapons / VFX</strong><em data-i18n="project.009.flow3">Armas base, proyectiles, cuerpo a cuerpo, skills, VFX y timers.</em></li>
+                            <li><span>04</span><strong>UI / Run Flow</strong><em data-i18n="project.009.flow4">HUD, estadísticas, mejoras, iconos, escenas, Game Over y resumen.</em></li>
+                        </ol>
                     </div>
 
                     <div class="project-info-card">
@@ -151,7 +208,19 @@
                             <li>C#</li>
                             <li>Rigidbody2D</li>
                             <li>Collider2D</li>
-                            <li>AI Básica</li>
+                            <li>Canvas</li>
+                            <li>EventSystem</li>
+                            <li>ScriptableObjects</li>
+                            <li>Animator</li>
+                            <li>Particle System</li>
+                            <li>AudioSource</li>
+                            <li>URP</li>
+                            <li>ShaderLab</li>
+                            <li>HLSL</li>
+                            <li>Photoshop</li>
+                            <li>Spine</li>
+                            <li>Git LFS</li>
+                            <li>GitHub Releases</li>
                         </ul>
                     </div>
 
@@ -160,24 +229,42 @@
                         <div class="project-status-layout">
                             <div class="status-box">
                                 <strong data-i18n="projectPage.statusLabel">Estado actual</strong>
-                                <span data-i18n="project.009.status">Prototipo de acción</span>
+                                <span data-i18n="project.009.status">Prototipo roguelite jugable</span>
                             </div>
                             <ul class="next-steps-list">
-                                <li data-i18n="project.009.next1">Definir comportamiento de enemigos y dificultad.</li>
-                                <li data-i18n="project.009.next2">Añadir capturas de combate y UI.</li>
-                                <li data-i18n="project.009.next3">Publicar build jugable con oleadas básicas.</li>
+                                <li data-i18n="project.009.next1">Completar todos los personajes jugables.</li>
+                                <li data-i18n="project.009.next2">Completar y balancear habilidades.</li>
+                                <li data-i18n="project.009.next3">Añadir más enemigos, variantes, biomas y feedback de impacto.</li>
+                                <li data-i18n="project.009.next4">Mejorar oleadas, dificultad, sonidos y música dinámica.</li>
+                                <li data-i18n="project.009.next5">Añadir logros, guardado de progreso y optimizar rendimiento.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="code-review-card full-width-card">
                         <h2><i data-lucide="search-code" aria-hidden="true"></i><span data-i18n="projectPage.reviewTitle">Ruta recomendada de revisión</span></h2>
-                        <p data-i18n="projectPage.reviewIntro">Cuando el repositorio esté publicado, estos serán los archivos o sistemas principales que un reclutador técnico debería revisar primero.</p>
+                        <p data-i18n="project.009.reviewIntro">Para revisar el proyecto técnicamente, el repositorio destaca scripts de gestión de partida, selección de personaje, oleadas, enemigos, jugador, armas, UI y mapa.</p>
                         <ul class="code-review-list">
-                            <li><code>EnemySpawner.cs</code><span data-i18n="project.009.review1">Generación y control de oleadas.</span></li>
-                            <li><code>CombatController.cs</code><span data-i18n="project.009.review2">Ataques y detección de impacto.</span></li>
-                            <li><code>Health.cs</code><span data-i18n="project.009.review3">Vida, daño y derrota.</span></li>
-                            <li><code>ScoreManager.cs</code><span data-i18n="project.009.review4">Puntuación y feedback de partida.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/General/GameManager.cs" target="_blank" rel="noopener noreferrer">GameManager.cs</a></code><span data-i18n="project.009.review1">Control general del flujo de partida.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/General/CharacterSelector.cs" target="_blank" rel="noopener noreferrer">CharacterSelector.cs</a></code><span data-i18n="project.009.review2">Selección de héroes y datos de personaje.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/Enemy/EnemySpawner.cs" target="_blank" rel="noopener noreferrer">EnemySpawner.cs</a></code><span data-i18n="project.009.review3">Spawn y control de enemigos.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/Enemy/WaveData.cs" target="_blank" rel="noopener noreferrer">WaveData.cs</a></code><span data-i18n="project.009.review4">Datos de oleadas y progresión de dificultad.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/Player/PlayerStats.cs" target="_blank" rel="noopener noreferrer">PlayerStats.cs</a></code><span data-i18n="project.009.review5">Vida, estadísticas, nivel y progresión del jugador.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/Weapons/Weapon.cs" target="_blank" rel="noopener noreferrer">Weapon.cs</a></code><span data-i18n="project.009.review6">Base de armas, ataques y comportamiento de habilidades.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/UI/UIUpgradeWindow.cs" target="_blank" rel="noopener noreferrer">UIUpgradeWindow.cs</a></code><span data-i18n="project.009.review7">Selección de mejoras al subir de nivel.</span></li>
+                            <li><code><a href="https://github.com/BLRochaGonzalez93/U009_Kill_Them_All_2D/blob/main/Project/PRJ_KillThemAll/Assets/_Root/Resources/Scripts/Map/MapController.cs" target="_blank" rel="noopener noreferrer">MapController.cs</a></code><span data-i18n="project.009.review8">Control del mapa, chunks y desplazamiento del mundo.</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card full-width-card">
+                        <h2><i data-lucide="graduation-cap" aria-hidden="true"></i><span data-i18n="project.009.learningTitle">Aprendizajes</span></h2>
+                        <ul class="check-list">
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.learning1">Diseño de un roguelite top-down inspirado en Vampire Survivors.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.learning2">Implementación de auto-ataque y supervivencia contra oleadas.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.learning3">Sistema de experiencia, niveles, gemas y mejora de habilidades.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.learning4">Diseño de personajes con habilidades diferenciadas.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.learning5">Gestión de spawn, dificultad progresiva y comportamiento básico de enemigos.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.009.learning6">Creación de HUD para vida, experiencia, habilidades y cronómetro.</span></li>
                         </ul>
                     </div>
                 </div>

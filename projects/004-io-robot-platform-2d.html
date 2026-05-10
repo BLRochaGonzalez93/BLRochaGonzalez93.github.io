@@ -6,18 +6,20 @@
 
     <title>IO Robot Platform 2D | VRM Games</title>
     <meta name="description"
-          content="Página de proyecto de IO Robot Platform 2D, parte del portfolio técnico de VRM Games desarrollado para evolucionar hacia case study, repositorio y build jugable." />
+          content="Página de proyecto de IO Robot Platform 2D, prototipo base jugable de plataformas 2D en Unity y C# con cambio entre modo combate y movilidad, contrarreloj, enemigos, puertas, proyectiles y plataformas móviles." />
     <meta name="author" content="Blas Luis Rocha González - VRM Games" />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0aff68" />
     <link rel="canonical" href="https://BLRochaGonzalez93.github.io/projects/004-io-robot-platform-2d.html" />
 
     <meta property="og:title" content="IO Robot Platform 2D | VRM Games" />
-    <meta property="og:description" content="Proyecto Unity / C# del portfolio de VRM Games preparado como case study técnico." />
+    <meta property="og:description" content="Prototipo base jugable de plataformas 2D con robot humanoide, cambio de forma, disparos, doble salto, contrarreloj, vidas, enemigos, trampas, puertas y plataformas móviles." />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://BLRochaGonzalez93.github.io/projects/004-io-robot-platform-2d.html" />
     <meta property="og:image" content="https://BLRochaGonzalez93.github.io/assets/img/iorobot-cover.webp" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IO Robot Platform 2D | VRM Games" />
+    <meta name="twitter:description" content="Prototipo base jugable en Unity/C# con plataformas 2D, modo combate, modo movilidad, proyectiles, enemigos, contrarreloj y puertas accionables." />
     <meta name="twitter:image" content="https://BLRochaGonzalez93.github.io/assets/img/iorobot-cover.webp" />
 
     <link rel="icon" href="../assets/icons/favicon.ico" />
@@ -73,11 +75,11 @@
                 <div class="project-detail-layout">
                     <div class="project-detail-copy">
                         <p class="eyebrow">
-                            <i data-lucide="gamepad-2" aria-hidden="true"></i>
-                            <span data-i18n="project.004.kicker">Unity · C# · Plataforma 2D</span>
+                            <i data-lucide="bot" aria-hidden="true"></i>
+                            <span data-i18n="project.004.kicker">Unity · C# · Plataformas 2D · Robot</span>
                         </p>
                         <h1 data-i18n="project.004.title">IO Robot Platform 2D</h1>
-                        <p class="hero-subtitle" data-i18n="project.004.subtitle">Prototipo de plataformas 2D protagonizado por un robot, centrado en movimiento, salto, obstáculos, pickups y progresión básica.</p>
+                        <p class="hero-subtitle" data-i18n="project.004.subtitle">Prototipo base jugable de plataformas 2D con robot humanoide, cambio entre modo combate y modo movilidad, proyectiles, doble salto, contrarreloj, enemigos, puertas y plataformas móviles.</p>
 
                         <div class="project-actions">
                             <a class="button primary" href="https://github.com/BLRochaGonzalez93/U004_IO_Robot_Platform_2D" target="_blank" rel="noopener noreferrer">
@@ -93,13 +95,13 @@
 
                     <aside class="project-summary-card" aria-label="Resumen del proyecto">
                         <div class="project-media project-media-save has-image">
-                            <img src="../assets/img/projects/iorobot-banner.webp" alt="Promotional thumbnail for the U004 IO Robot Platform 2D Unity C# project" loading="eager" decoding="async" />
+                            <img src="../assets/img/projects/iorobot-banner.webp" alt="Banner promocional de IO Robot Platform 2D" loading="eager" decoding="async" />
                             <span>U004</span>
                         </div>
                         <div class="project-facts">
                             <div class="project-fact"><span data-i18n="projectPage.engineLabel">Motor</span><strong>Unity</strong></div>
                             <div class="project-fact"><span data-i18n="projectPage.languageLabel">Lenguaje</span><strong>C#</strong></div>
-                            <div class="project-fact"><span data-i18n="projectPage.statusFactLabel">Estado</span><strong data-i18n="project.004.status">Prototipo base</strong></div>
+                            <div class="project-fact"><span data-i18n="projectPage.statusFactLabel">Estado</span><strong data-i18n="project.004.status">Prototipo base jugable</strong></div>
                         </div>
                     </aside>
                 </div>
@@ -109,38 +111,92 @@
                 <div class="project-detail-grid">
                     <div class="project-info-card full-width-card">
                         <h2><i data-lucide="file-text" aria-hidden="true"></i><span data-i18n="projectPage.summaryTitle">Resumen técnico</span></h2>
-                        <p data-i18n="project.004.summary">IO Robot Platform 2D funciona como base para demostrar control de personaje 2D, lectura de input, físicas, detección de suelo, interacción con elementos del escenario y estructura de niveles sencilla.</p>
-                        <p data-i18n="projectPage.placeholderNote">Contenido preparado para sustituirse por capturas, código, vídeo, documentación y enlaces reales cuando el proyecto avance.</p>
+                        <p data-i18n="project.004.summary">IO Robot Platform 2D es un prototipo base jugable de plataformas 2D desarrollado en Unity con C#. El jugador controla un robot humanoide en vista lateral y debe superar una fase con plataformas, trampas, pinchos, enemigos, puertas elevadizas, objetos interactuables y plataformas móviles.</p>
+                        <p data-i18n="project.004.summary2">Su mecánica diferencial es el cambio de forma entre modo combate, representado en amarillo y capaz de disparar proyectiles, y modo movilidad, representado en azul y centrado en mayor velocidad y doble salto. La partida se gana al llegar al final del nivel y se pierde al agotar vidas o tiempo.</p>
                     </div>
 
-                    <div class="project-info-card technical-flow-card full-width-card">
-                        <h2><i data-lucide="workflow" aria-hidden="true"></i><span data-i18n="projectPage.flowTitle">Flujo técnico previsto</span></h2>
-                        <p data-i18n="projectPage.flowIntro">En esta sección se recogen las próximas actualizaciones previstas para el proyecto en base a la especificación técnica.</p>
-                        <ol class="technical-flow-list">
-                            <li><span>01</span><strong>Movement</strong><em data-i18n="project.004.flow1">Movimiento horizontal y lectura de input.</em></li>
-                            <li><span>02</span><strong>Jump / Ground Check</strong><em data-i18n="project.004.flow2">Salto, caída y validación de contacto con el suelo.</em></li>
-                            <li><span>03</span><strong>Level Hazards</strong><em data-i18n="project.004.flow3">Interacción con obstáculos y elementos de escenario.</em></li>
-                            <li><span>04</span><strong>Progression</strong><em data-i18n="project.004.flow4">Condición de llegada, reinicio y avance de nivel.</em></li>
-                        </ol>
+                    <div class="project-info-card">
+                        <h2><i data-lucide="repeat" aria-hidden="true"></i><span data-i18n="project.004.modeTitle">Cambio de forma</span></h2>
+                        <p data-i18n="project.004.modeSummary">El personaje alterna entre dos formas con lectura visual clara: amarillo para combate y azul para movilidad. Cada modo modifica las posibilidades del jugador y obliga a decidir cuándo priorizar ataque, velocidad o salto.</p>
+                    </div>
+
+                    <div class="project-info-card">
+                        <h2><i data-lucide="flag" aria-hidden="true"></i><span data-i18n="project.004.objectiveTitle">Objetivo y condiciones</span></h2>
+                        <p data-i18n="project.004.objectiveSummary">El objetivo es llegar al final de la fase antes de quedarse sin tiempo o sin vidas. El prototipo combina contrarreloj, daño, enemigos, obstáculos, muerte, reinicio, puntuación, victoria y derrota.</p>
                     </div>
 
                     <div class="project-info-card">
                         <h2><i data-lucide="user-check" aria-hidden="true"></i><span data-i18n="projectPage.contributionTitle">Mi contribución</span></h2>
                         <ul>
-                            <li data-i18n="project.004.contribution1">Diseño del controlador de personaje 2D y comportamiento de salto.</li>
-                            <li data-i18n="project.004.contribution2">Preparación de obstáculos, pickups y lógica de progresión.</li>
-                            <li data-i18n="project.004.contribution3">Estructura del flujo de niveles y reinicio de partida.</li>
-                            <li data-i18n="project.004.contribution4">Documentación de sistemas para revisión técnica.</li>
+                            <li data-i18n="project.004.contribution1">Diseño e implementación de un controlador de plataformas 2D con movimiento, salto, doble salto, caída, gravedad y detección de suelo.</li>
+                            <li data-i18n="project.004.contribution2">Diseño del sistema de cambio entre modo combate y modo movilidad, incluyendo feedback visual por color y diferencias jugables.</li>
+                            <li data-i18n="project.004.contribution3">Implementación de proyectiles, límite de balas, recarga por tiempo, enemigos, trampas, puertas, botones, objetos destructibles y plataformas móviles.</li>
+                            <li data-i18n="project.004.contribution4">Integración de contrarreloj, vidas, puntuación, victoria, derrota, menú principal, pausa, partículas, sonido, música, build y documentación técnica.</li>
                         </ul>
                     </div>
 
                     <div class="project-info-card">
-                        <h2><i data-lucide="blocks" aria-hidden="true"></i><span data-i18n="projectPage.systemsTitle">Sistemas implementados</span></h2>
+                        <h2><i data-lucide="blocks" aria-hidden="true"></i><span data-i18n="project.004.systemsTitle">Sistemas implementados</span></h2>
                         <ul>
-                            <li data-i18n="project.004.system1">Controlador 2D</li>
-                            <li data-i18n="project.004.system2">Detección de suelo</li>
-                            <li data-i18n="project.004.system3">Pickups y obstáculos</li>
-                            <li data-i18n="project.004.system4">Gestión de nivel</li>
+                            <li data-i18n="project.004.system1">Movimiento horizontal, salto, doble salto, caída, gravedad y detección de suelo.</li>
+                            <li data-i18n="project.004.system2">Cambio entre modo combate y modo movilidad con feedback visual amarillo/azul.</li>
+                            <li data-i18n="project.004.system3">Disparo de proyectiles, límite de balas y recarga de balas por tiempo.</li>
+                            <li data-i18n="project.004.system4">Enemigos derrotables, daño, vidas, muerte, reinicio, victoria y derrota.</li>
+                            <li data-i18n="project.004.system5">Trampas, pinchos, obstáculos, objetos destructibles, botones y puertas elevadizas.</li>
+                            <li data-i18n="project.004.system6">Plataformas, plataformas móviles, parallax y cámara de seguimiento.</li>
+                            <li data-i18n="project.004.system7">Sistema de contrarreloj, puntuación, niveles, menú principal y pausa.</li>
+                            <li data-i18n="project.004.system8">Partículas, sonido, música, UI básica y build jugable para Windows.</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card full-width-card">
+                        <h2><i data-lucide="sparkles" aria-hidden="true"></i><span data-i18n="project.004.featuresTitle">Características principales</span></h2>
+                        <ul class="check-list">
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature1">Gameplay de plataformas 2D con vista lateral.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature2">Robot humanoide controlado por el jugador.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature3">Movimiento horizontal, salto, doble salto, gravedad y detección de suelo.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature4">Modo combate con proyectiles y modo movilidad con más velocidad.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature5">Feedback visual por forma: amarillo para combate y azul para movilidad.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature6">Límite de balas y recarga de balas por tiempo.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature7">Enemigos, obstáculos, trampas, pinchos y objetos destructibles.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature8">Puertas elevadizas accionables mediante objetos interactuables.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature9">Plataformas móviles, cámara y parallax.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature10">Contrarreloj, vidas, puntuación, victoria y derrota.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature11">Menú principal, pausa, partículas, sonido y música.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.feature12">Build jugable para Windows publicada en GitHub Releases.</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card technical-flow-card full-width-card">
+                        <h2><i data-lucide="workflow" aria-hidden="true"></i><span data-i18n="projectPage.flowTitle">Flujo técnico previsto</span></h2>
+                        <p data-i18n="project.004.flowIntro">El flujo jugable conecta movimiento, cambio de forma, interacción, riesgo ambiental y condiciones de partida dentro de una fase funcional.</p>
+                        <ol class="technical-flow-list">
+                            <li><span>01</span><strong>Player Movement</strong><em data-i18n="project.004.flow1">Leer input, mover al robot, aplicar salto, doble salto, gravedad y detección de suelo.</em></li>
+                            <li><span>02</span><strong>Mode Switching</strong><em data-i18n="project.004.flow2">Alternar entre combate y movilidad para habilitar proyectiles o mejorar velocidad y salto.</em></li>
+                            <li><span>03</span><strong>Level Interaction</strong><em data-i18n="project.004.flow3">Resolver obstáculos, activar puertas, usar plataformas móviles, esquivar trampas y derrotar enemigos.</em></li>
+                            <li><span>04</span><strong>Game State</strong><em data-i18n="project.004.flow4">Gestionar contrarreloj, vidas, puntuación, victoria, derrota, reinicio, menú y pausa.</em></li>
+                        </ol>
+                    </div>
+
+                    <div class="project-info-card full-width-card">
+                        <h2><i data-lucide="git-branch" aria-hidden="true"></i><span data-i18n="project.004.architectureTitle">Arquitectura</span></h2>
+                        <p data-i18n="project.004.architectureIntro">La lógica se divide en sistemas pequeños para separar jugador, modo de gameplay, disparo, nivel, enemigos, UI, tiempo, puntuación e interacción con el escenario.</p>
+                        <ul class="check-list">
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture1">BulletControl — disparo, proyectiles, límite de balas y recarga.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture2">ButtonDoorControl — botones, puertas elevadizas e interacción.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture3">CameraControl — seguimiento y control de cámara.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture4">DestructibleItem — comportamiento de elementos destructibles.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture5">EndLevelControl — detección de final de fase y condición de victoria.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture6">EnemyControl — comportamiento de enemigos derrotables.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture7">GrabbedItemControl — objetos interactuables o recogibles.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture8">LevelManager — control general del nivel.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture9">MenuController — navegación por menús y pausa.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture10">MobilePlatform — comportamiento de plataformas móviles.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture11">Parallax — efecto visual de profundidad en el escenario.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture12">PlayerModeController — cambio entre modo combate y modo movilidad.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture13">PlayerMovement — movimiento, salto y físicas del jugador.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture14">ScoreController — puntuación.</span></li>
+                            <li><i data-lucide="check" aria-hidden="true"></i><span data-i18n="project.004.architecture15">TimerControl — contrarreloj y condición de derrota por tiempo.</span></li>
                         </ul>
                     </div>
 
@@ -152,6 +208,26 @@
                             <li>Rigidbody2D</li>
                             <li>Collider2D</li>
                             <li>Tilemap</li>
+                            <li>Animator</li>
+                            <li>Particle System</li>
+                            <li>UI</li>
+                            <li>AudioSource</li>
+                            <li>Git LFS</li>
+                            <li>GitHub Releases</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-info-card">
+                        <h2><i data-lucide="image" aria-hidden="true"></i><span data-i18n="project.004.visualsTitle">Visuales previstos</span></h2>
+                        <p data-i18n="project.004.visualsSummary">El repositorio deja preparados nombres previstos para logo, portada, banner y miniaturas centradas en cambio de modo, plataformas, puertas con botones y combate.</p>
+                        <ul>
+                            <li><code data-i18n="project.004.visual1">iorobot-logo.png</code></li>
+                            <li><code data-i18n="project.004.visual2">iorobot-cover.png</code></li>
+                            <li><code data-i18n="project.004.visual3">iorobot-banner.png</code></li>
+                            <li><code data-i18n="project.004.visual4">iorobot-thumbnail-01-mode-switching.png</code></li>
+                            <li><code data-i18n="project.004.visual5">iorobot-thumbnail-02-platforming.png</code></li>
+                            <li><code data-i18n="project.004.visual6">iorobot-thumbnail-03-door-button-puzzle.png</code></li>
+                            <li><code data-i18n="project.004.visual7">iorobot-thumbnail-04-combat-mode.png</code></li>
                         </ul>
                     </div>
 
@@ -160,25 +236,34 @@
                         <div class="project-status-layout">
                             <div class="status-box">
                                 <strong data-i18n="projectPage.statusLabel">Estado actual</strong>
-                                <span data-i18n="project.004.status">Prototipo base</span>
+                                <span data-i18n="project.004.status">Prototipo base jugable</span>
                             </div>
                             <ul class="next-steps-list">
-                                <li data-i18n="project.004.next1">Corregir la ruta para que el archivo tenga extensión .html.</li>
-                                <li data-i18n="project.004.next2">Añadir capturas y explicar el controlador 2D.</li>
-                                <li data-i18n="project.004.next3">Preparar build jugable y enlace desde la página.</li>
+                                <li data-i18n="project.004.next1">Añadir más niveles.</li>
+                                <li data-i18n="project.004.next2">Añadir más tipos de enemigos y checkpoints.</li>
+                                <li data-i18n="project.004.next3">Añadir más objetos interactuables y habilidades para cada forma.</li>
+                                <li data-i18n="project.004.next4">Ajustar balance del límite de balas, recarga y contrarreloj.</li>
+                                <li data-i18n="project.004.next5">Añadir guardado de progreso y pantallas de victoria/derrota más completas.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="code-review-card full-width-card">
                         <h2><i data-lucide="search-code" aria-hidden="true"></i><span data-i18n="projectPage.reviewTitle">Ruta recomendada de revisión</span></h2>
-                        <p data-i18n="projectPage.reviewIntro">Cuando el repositorio esté publicado, estos serán los archivos o sistemas principales que un reclutador técnico debería revisar primero.</p>
+                        <p data-i18n="project.004.reviewIntro">Para revisar técnicamente el proyecto, conviene empezar por los sistemas que conectan tiempo, cambio de modo, proyectiles e interacción con puertas.</p>
                         <ul class="code-review-list">
-                            <li><code>RobotController2D.cs</code><span data-i18n="project.004.review1">Movimiento, salto y control del robot.</span></li>
-                            <li><code>GroundCheck.cs</code><span data-i18n="project.004.review2">Validación del contacto con el suelo.</span></li>
-                            <li><code>Pickup.cs</code><span data-i18n="project.004.review3">Interacción con coleccionables.</span></li>
-                            <li><code>LevelManager.cs</code><span data-i18n="project.004.review4">Progresión, reinicio y estados de nivel.</span></li>
+                            <li><code>TimerControl.cs</code><span data-i18n="project.004.review1">Contrarreloj, pérdida por tiempo y sincronización del estado de partida.</span></li>
+                            <li><code>PlayerModeController.cs</code><span data-i18n="project.004.review2">Cambio entre modo combate y modo movilidad con feedback visual.</span></li>
+                            <li><code>BulletControl.cs</code><span data-i18n="project.004.review3">Disparo, proyectiles, límite de balas y recarga por tiempo.</span></li>
+                            <li><code>ButtonDoorControl.cs</code><span data-i18n="project.004.review4">Interacción con botones, puertas elevadizas y obstáculos del nivel.</span></li>
                         </ul>
+                    </div>
+
+                    <div class="project-info-card full-width-card">
+                        <h2><i data-lucide="graduation-cap" aria-hidden="true"></i><span data-i18n="project.004.learningsTitle">Aprendizajes</span></h2>
+                        <p data-i18n="project.004.learning1">Este proyecto me permitió trabajar movimiento y salto 2D con Rigidbody2D, detección de suelo, gravedad, plataformas y control de personaje en un entorno de plataformas.</p>
+                        <p data-i18n="project.004.learning2">También me ayudó a diseñar un personaje con dos modos de gameplay claramente diferenciados, tanto a nivel mecánico como visual: combate y movilidad.</p>
+                        <p data-i18n="project.004.learning3">Además, practiqué gestión de proyectiles con límite y recarga por tiempo, contrarreloj, vidas, victoria, derrota e interacción con puertas, botones, plataformas móviles y objetos destructibles.</p>
                     </div>
                 </div>
             </section>
